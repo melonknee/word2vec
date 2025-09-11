@@ -4,7 +4,7 @@
 A lightweight Python-based Word2Vec model showcasing how to convert text into vector representations using the skip-gram model. This project aims to explore word embeddings and the training process of how machines begin to form an understanding of the semantics of words through rich meaningful embeddings.
 
 ### Skip-Gram
-[Diagram]
+![Structure of the Skip-Gram Model]([https://github.com/melonknee/word2vec/blob/readme-updates/docs/images/skipgram.png](https://raw.githubusercontent.com/melonknee/word2vec/refs/heads/readme-updates/docs/images/skipgram.png))
 
 ## Stack:
 Python, Jupyter Notebook, Matplotlib, sci-kit learn, NumPy, PyTorch
@@ -17,7 +17,7 @@ Python, Jupyter Notebook, Matplotlib, sci-kit learn, NumPy, PyTorch
 ### t-SNE (t-Distributed Stochastic Neighbour Embedding)
 This non-linear technique is used for visualising high-dimensional data. It converts high-dimensional distances between data points into probabilities, then creating a low-dimensional map where similar high-dimensional points are modeled as nearby points in the low-dimensional space.
 
-![Displaying the clustering of words in similar topics]([image-url](https://github.com/melonknee/word2vec/blob/readme-updates/docs/images/vis_t-sne_categorical_clustering.png))
+[Displaying the clustering of words in similar topics]!([image-url](https://github.com/melonknee/word2vec/blob/readme-updates/docs/images/vis_t-sne_categorical_clustering.png))
 ### PCA (Principal Component Analysis)
 This linear technique reduces the dimensionality of the embeddings, whilst preserving global data structures and variance, allowing us to create visualisations that show interpretable, deterministic results.
 It is less effective for non-linear data, hence why I used it to explore the arithmetic relationship of the words.
